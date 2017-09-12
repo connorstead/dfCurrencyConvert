@@ -1,0 +1,11 @@
+Package: dfCurrencyConvert
+Title: Currency conversion 
+Version: 0.0.0.9000
+Authors@R: person("Stead", "Connor", email = "connor.stead@hdr.mq.edu.au", role = c("aut", "cre"))
+Description: This package loops through currency values in a data frame, converting them to a currency of your choice in a new column. The package 'lucr' (Keyes, 2016, https://github.com/ironholds/lucr) is leveraged to perform the conversion, which requires an openexchangerates.org API key. Both Keyes (2016) and myself recommend the use of their free tier account, which as of September 2017 permits 1,000 currency conversion requests per month.
+Depends: R (>= 3.4.1)
+Imports: Rcpp, httr, lucr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
